@@ -1,0 +1,12 @@
+.height-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrapper {
+  min-width: 320px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+

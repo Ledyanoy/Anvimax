@@ -1,0 +1,5 @@
+mixin footer(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  footer(class=spec.__class)&attributes(attributes)

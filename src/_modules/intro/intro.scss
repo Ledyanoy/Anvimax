@@ -1,0 +1,23 @@
+// intro styles
+.intro {
+  padding-top: 24px;
+  background-image: url("/images/intro-mobile-back.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.intro__title {
+  margin-bottom: 8px;
+}
+
+.intro__desc {
+  margin-bottom: 10px;
+}
+
+.intro__image {
+  max-width: 120%;
+  height: auto;
+  margin-top: 65px;
+  margin-left: -50px;
+}

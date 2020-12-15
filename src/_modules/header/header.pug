@@ -1,0 +1,5 @@
+mixin header(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  header(class=spec.__class)&attributes(attributes)

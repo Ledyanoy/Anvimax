@@ -1,0 +1,7 @@
+mixin button(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+  - spec.title = spec.title || 'кнопка'
+
+  button.btn(class=spec.__class)&attributes(attributes) #{spec.title}
+

@@ -1,0 +1,13 @@
+include ../advantages-list/advantages-list
+
+mixin advantages(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  div.advantages(class=spec.__class)&attributes(attributes)
+    +advanages-list
+    div.advantages__desc
+      div.advantages__background
+      div.advantages__banner
+
+
