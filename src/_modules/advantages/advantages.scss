@@ -1,6 +1,41 @@
 // advantages styles
+
+.advantages {
+  &__left-image {
+    width: 52%;
+    align-self: center;
+  }
+
+  &__right-image {
+    width: 48%;
+    align-self: center;
+  }
+}
+
 .advantages__background {
-  height: 160px;
-  background-image: url("/images/santa.png");
-  background-position-y: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+.advantages__banner {
+  background: linear-gradient(90deg, #1C2454 2.01%, #DA291C 100%);
+  padding: 15px 12px 21px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -11%;
+
+  img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+  }
+}
+
+.advantages__btn {
+  margin-top: -5px;
 }

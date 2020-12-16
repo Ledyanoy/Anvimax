@@ -4,6 +4,8 @@ include _modules/link/link
 include _modules/header/header
 include _modules/intro/intro
 include _modules/advantages/advantages
+include _modules/generator/generator
+include _modules/result-list/result-list
 
 include _modules/footer/footer
 
@@ -16,13 +18,15 @@ block content
       .wrapper
         +intro
         +advantages
-          //h1 Welcome to Anvimax
-          //p.
-          //  Take a look at the
-          //  #[+link({text: 'documentation'})(href='https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---')]
-          //  and start mixing up something awesome.
-          //p
-          //  img.logo(src="images/yeogurt-swirl.png", width="75px")
+          h1 Welcome to Anvimax
+          p.
+            Take a look at the
+            #[+link({text: 'documentation'})(href='https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---')]
+            and start mixing up something awesome.
+          p
+            img.logo(src="images/yeogurt-swirl.png", width="75px")
+        +generator
+        +result-list
     +footer
 
 

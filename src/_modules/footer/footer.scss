@@ -1,10 +1,14 @@
 // footer styles
 footer {
   flex: 0 0 auto;
-  height: 48px;
-  background: red;
+  padding-bottom: 48px;
+  background: #252452;
   width: 100%;
   position: fixed;
   left: 0;
   bottom: 0;
+}
+
+.footer__alert {
+  padding: 5px 0;
 }

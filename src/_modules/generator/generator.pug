@@ -1,6 +1,14 @@
+include ../categories/categories
+
 mixin generator(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  div(class=spec.__class)&attributes(attributes)
-    p This is an example paragraph for the generator module
+  div.generator(class=spec.__class)&attributes(attributes)
+    .content
+      h2.generator__title.text.text--bg Запускай
+        |  киногенератор и&nbsp;наслаждайся просмотром!
+      p.text.text--reg Выбери, чтобы ты хотел испытать от просмотра
+      +categories
+
+

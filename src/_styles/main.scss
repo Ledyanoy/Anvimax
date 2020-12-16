@@ -14,6 +14,9 @@
 @import '../_modules/advantages/advantages';
 @import '../_modules/advantages-list/advantages-list';
 @import '../_modules/generator/generator';
+@import '../_modules/categories/categories';
+@import '../_modules/result-list/result-list';
+@import '../_modules/progress-bar/progress-bar';
 @import '../_modules/footer/footer';
 
 
@@ -41,7 +44,7 @@ body {
 
 .container {
   flex: 1 0 auto;
-  padding-bottom: 48px;
+  padding-bottom: 100px;
 }
 
 // Styling on warning for users on IE7 or below

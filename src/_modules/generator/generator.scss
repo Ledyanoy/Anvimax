@@ -1,1 +1,12 @@
-// generator styles
+.generator {
+  padding-top: 23px;
+  background: url("/images/back-categories.png");
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.generator__title {
+  margin-bottom: 10px;
+}

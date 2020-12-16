@@ -1,0 +1,23 @@
+include ../progress-bar/progress-bar
+
+mixin categories(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  - var categories = [ {title: 'Умилиться и погрустить', mbI: "images/categories/pleasure-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}, {title: 'Посмеяться и помечтать', mbI: "images/categories/fun-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}, {title: 'задуматься и удивиться', mbI: "images/categories/think-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}]
+
+      ul.categories(class=spec.__class)&attributes(attributes)
+        each category in categories
+          li.category-card
+            .category-card__content
+              .category-card__back
+              picture.category-card__image
+                source(srcset=category.tabletI media="(min-width: 579px)")
+                img(src=category.mbI alt=category.title)
+              p.category-card__name.text.text--category
+               | #{category.title}
+              +button({
+                __class: 'button--action category-card__btn',
+                title: 'сгенерировать'
+              })
+            +progress-bar({__class: 'category-card__progress'})

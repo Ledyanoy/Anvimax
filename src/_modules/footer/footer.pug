@@ -2,4 +2,6 @@ mixin footer(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  footer(class=spec.__class)&attributes(attributes)
+  footer.footer(class=spec.__class)&attributes(attributes)
+    .content
+      p.footer__alert.text.text--alert  ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМО ОЗНАКОМИТЬСЯ С ИНСТРУКЦИЕЙ ИЛИ ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ

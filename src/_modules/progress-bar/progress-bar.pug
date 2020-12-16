@@ -1,0 +1,13 @@
+mixin progress-bar(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  div.progress-bar(class=spec.__class)&attributes(attributes)
+    .progress-bar__content
+      img.progress-bar__logo(src="images/progress-bar.png" alt='прогресс-бар-анвимакс')
+      .progress-bar__progress-line
+      p.progress-bar__text.text.text--progress-bar
+        span 0
+          |%
+
+

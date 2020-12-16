@@ -1,0 +1,84 @@
+// categories styles
+.categories {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 18px;
+}
+
+.category-card {
+  max-width: 269px;
+  margin: 0 auto 20px;
+  position: relative;
+  transition: 0.3s;
+
+  &:hover {
+    margin-bottom: 80px;
+  }
+}
+
+
+.category-card__content {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category-card__name {
+  position: absolute;
+  bottom: 8px;
+  left: 15px;
+  opacity: 1;
+  white-space: nowrap;
+  transition: 0.3s;
+
+  .category-card:hover & {
+    left: 110%
+  }
+}
+
+.category-card__btn {
+  position: absolute;
+  left: -80%;
+  bottom: 12px;
+  transition: 0.3s;
+
+  .category-card:hover & {
+    left: 15px;
+  }
+}
+
+.category-card__back {
+  position: absolute;
+  height: 110%;
+  width: 100%;
+  transform: rotate(10deg);
+  left: 65%;
+  top: 0;
+  transition: 0.3s;
+  background: linear-gradient(184.86deg, rgba(218, 41, 28, 0.9) 2.86%, rgba(106, 30, 60, 0.639) 51.18%, rgba(9, 22, 96, 0.9) 85.06%);
+
+  .category-card:hover & {
+    left: 110%;
+  }
+}
+
+.category-card__image {
+  img {
+    vertical-align: bottom;
+  }
+}
+
+.category-card__progress {
+  position: absolute;
+  top: 120%;
+  transition: 0.3s;
+  opacity: 0;
+  pointer-events: none;
+
+  .category-card:hover & {
+    top: 100%;
+    opacity: 1;
+  }
+}

@@ -8,6 +8,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   max-height: 110px;
+  margin-bottom: -110px;
+  position: relative;
 
 }
 
@@ -29,12 +31,24 @@
   }
 }
 
+.advantages-list__text-icon {
+  height: 22px;
+  max-width: 105px;
+
+
+  svg {
+    width: auto;
+    height: 100%;
+  }
+}
+
 .advantages-list__item-text {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 700;
+
   span {
-    color:$advantages-titles;
+    color: $advantages-titles;
     display: block;
   }
 }
