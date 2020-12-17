@@ -5,16 +5,17 @@ mixin result-list(spec)
   - var films = [{name:'Я худею', img:'images/films/1.png'}, {name:'Марафон желаний', img:'images/films/2.png'}, {name:'Домовой', img:'images/films/3.png'},{name:'О чём говорят мужчины', img:'images/films/4.png'},{name:'Служебный роман', img:'images/films/5.png'},{name:'Та ещё парочка', img:'images/films/6.png'},{name:'Любовь и голуби', img:'images/films/14.png'},{name:'1+1', img:'images/films/7.png'},{name:'Семь ужинов', img:'images/films/8.png'},{name:'Красотка на всю голову', img:'images/films/9.png'},{name:'Бабушка лёгкого поведения', img:'images/films/10.png'},{name:'Горько!', img:'images/films/11.png'},{name:'Зачётный препод', img:'images/films/12.png'},{name:'Особенности национальной охоты', img:'images/films/13.png'}]
 
     div.result-list__outer(class=spec.__class)&attributes(attributes)
-      .content.result-list__content
-        p.result-list__title.text.text--h3 Хочу посмеяться
-        p.result-list__desc.text.text--middle Персональная подборка для тех, кто любит безудержное веселье
+      .result-list__inner
+        .content.result-list__content
+          p.result-list__title.text.text--h3 Хочу посмеяться
+          p.result-list__desc.text.text--middle Персональная подборка для тех, кто любит безудержное веселье
+          div.result-list__container
+            ul.result-list
+              each film in films
+                li.film
+                  a(href='').film__card
+                    img.film__image(src=film.img alt=film.name)
+                    p.film__name.text.text--film-name #{film.name}
 
-        ul.result-list
-          each film in films
-            li.film
-              a(href='').film__card
-                img.film__image(src=film.img alt=film.name)
-                p.film__name.text.text--film-name #{film.name}
-
-        +button({__class: 'result-list__btn button--generation', title: 'Сгенерировать новую подборку'})
+          +button({__class: 'result-list__btn button--generation', title: 'Сгенерировать новую подборку'})
 

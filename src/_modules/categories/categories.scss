@@ -3,6 +3,12 @@
   list-style: none;
   padding-left: 0;
   margin-top: 18px;
+  @media screen and (min-width: $laptop - 1) {
+    margin-top: 30px;
+  }
+  @media screen and (min-width: $tablet + 200) {
+    display: flex;
+  }
 }
 
 .category-card {
@@ -13,6 +19,24 @@
 
   &:hover {
     margin-bottom: 80px;
+    @media screen and (min-width: $laptop - 1) {
+      margin-bottom: 130px;
+    }
+    @media screen and (min-width: $tablet + 200) {
+      margin-bottom: 100px;
+    }
+
+  }
+
+  @media screen and (min-width: $laptop - 1) {
+    max-width: 534px;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: $tablet + 200) {
+    max-width: 353px;
+    width: 30%;
+    margin-bottom: 100px;
   }
 }
 
@@ -34,8 +58,30 @@
   transition: 0.3s;
 
   .category-card:hover & {
-    left: 110%
+    left: 110%;
+    @media screen and (min-width: $laptop - 1) {
+      left: 30px;
+      bottom: 100px;
+    }
+    @media screen and (min-width: $tablet + 200) {
+      left: 110%;
+      bottom: 20px;
+    }
   }
+
+  @media screen and (min-width: $laptop - 1) {
+    bottom: 20px;
+    left: 30px;
+  }
+
+  @media screen and (min-width: $tablet + 200) {
+    max-width: 100%;
+    white-space: normal;
+    bottom: 20px;
+    width: 353px;
+  }
+
+
 }
 
 .category-card__btn {
@@ -43,9 +89,24 @@
   left: -80%;
   bottom: 12px;
   transition: 0.3s;
+  @media screen and (min-width: $laptop - 1) {
+    bottom: 16px;
+  }
+  @media screen and (min-width: $tablet + 200) {
+    left: -100%;
+  }
 
   .category-card:hover & {
     left: 15px;
+    @media screen and (min-width: $laptop - 1) {
+      left: 25px;
+    }
+    @media screen and (min-width: $tablet + 200) {
+      left: 3%;
+    }
+    @media screen and (min-width: $tablet + 350) {
+      left: 30px;
+    }
   }
 }
 
@@ -67,6 +128,10 @@
 .category-card__image {
   img {
     vertical-align: bottom;
+    @media screen and (min-width: $tablet + 200) {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
@@ -80,5 +145,8 @@
   .category-card:hover & {
     top: 100%;
     opacity: 1;
+    @media screen and (min-width: $laptop - 1) {
+      top: 102%;
+    }
   }
 }

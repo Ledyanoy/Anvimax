@@ -5,14 +5,42 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: right bottom;
+  position: relative;
+  @media screen and (min-width: $tablet - 1) {
+    background-image: url("/images/intro-desk-back.png");
+    background-size: cover;
+  }
+  &__content {
+    position: relative;
+    @media screen and (min-width: $tablet - 1) {
+      display: flex;
+      justify-content: center;
+    }
+    @media screen and (min-width: $desktop - 1) {
+      justify-content: flex-start;
+    }
+  }
+  @media screen and (min-width: $laptop - 1) {
+    padding-top: 42px;
+  }
+  @media screen and (min-width: $desktop - 1) {
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
 }
 
 .intro__title {
   margin-bottom: 8px;
+  @media screen and (min-width: $laptop - 1) {
+    margin-bottom: 12px;
+  }
 }
 
 .intro__desc {
   margin-bottom: 10px;
+  @media screen and (min-width: $laptop - 1) {
+    margin-bottom: 16px;
+  }
 }
 
 .intro__image {
@@ -20,4 +48,29 @@
   height: auto;
   margin-top: 65px;
   margin-left: -50px;
+  @media screen and (min-width: $laptop - 1) {
+    max-width: 115%;
+    margin-top: 100px;
+    margin-left: -75px;
+  }
+  @media screen and (min-width: $tablet - 1) {
+    max-width: 50%;
+    margin-left: -55px;
+  }
+  @media screen and (min-width: $desktop - 1) {
+    position: absolute;
+    max-width: 70%;
+    right: -155px;
+    top: -30px
+  }
 }
+.intro__left-side {
+  @media screen and (min-width: $tablet - 1) {
+    width: 450px;
+  }
+  @media screen and (min-width: $desktop - 1) {
+    max-width: 100%;
+    width: 600px;
+  }
+}
+

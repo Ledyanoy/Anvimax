@@ -5,7 +5,7 @@ mixin intro(spec)
   - spec.__class = spec.__class || ''
 
   div.intro
-    .content
+    .content.intro__content
       .intro__left-side
         h2.intro__title.text.text--bg Развлечение
          |  во&nbsp;время лечения
@@ -14,4 +14,4 @@ mixin intro(spec)
           __class: 'button--action intro__btn',
           title: 'подобрать фильм'
         })
-      img(src="images/avimaks.png" alt='avimaks').intro__right-side.intro__image
+      img(src="images/avimaks.png" alt='anvimaks от гриппа и простуды').intro__right-side.intro__image

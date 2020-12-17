@@ -1,10 +1,18 @@
 .result-list__outer {
   padding-top: 150px;
-  background: url("/images/back-result.png");
+  background-image: url("/images/back-result.png");
   background-position-x: center;
   background-position-y: top;
   margin-top: -150px;
-  padding-bottom: 24px;
+  padding-bottom: 10%;
+  background-repeat: no-repeat;
+  @media screen and (min-width: $laptop - 1) {
+    padding-top: 155px;
+  }
+}
+
+.result-list__inner {
+  background-color: #1D193F;
 }
 
 .result-list__content {
@@ -12,10 +20,14 @@
 }
 .result-list__title {
   margin-bottom: 6px;
+  @media screen and (min-width: $laptop - 1) {
+    margin-bottom: 0;
+  }
+
 }
 
 .result-list__desc {
-  margin-bottom: 23px;
+  margin-bottom: 16px;
 }
 
 .result-list {
@@ -24,6 +36,21 @@
   list-style: none;
   padding-left: 0;
   margin: 0 -8px;
+  @media screen and (min-width: $laptop - 1) {
+    margin: 0 -12px;
+    max-width: 100%;
+  }
+}
+
+.result-list__container {
+  max-width: 435px;
+  margin: 0 auto;
+  @media screen and (min-width: $laptop - 1) {
+    max-width: 522px;
+  }
+  @media screen and (min-width: $tablet - 1) {
+    max-width: 100%;
+  }
 }
 
 .film {
@@ -31,6 +58,15 @@
   margin-left: 8px;
   margin-right: 8px;
   margin-bottom: 16px;
+  width: 100%;
+  @media screen and (min-width: $laptop - 1) {
+    max-width: 150px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  @media screen and (min-width: $tablet - 1) {
+    max-width: 140px;
+  }
 }
 
 .film__card {
@@ -40,7 +76,7 @@
 .film__image {
   width: 100%;
   height: auto;
-  margin-bottom:6px;
+  margin-bottom:4px;
 }
 
 .film__name {

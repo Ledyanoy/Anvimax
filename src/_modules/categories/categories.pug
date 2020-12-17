@@ -4,7 +4,7 @@ mixin categories(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  - var categories = [ {title: 'Умилиться и погрустить', mbI: "images/categories/pleasure-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}, {title: 'Посмеяться и помечтать', mbI: "images/categories/fun-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}, {title: 'задуматься и удивиться', mbI: "images/categories/think-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}]
+  - var categories = [ {title: 'Умилиться и погрустить', mbI: "images/categories/pleasure-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}, {title: 'Посмеяться и помечтать', mbI: "images/categories/fun-mb.png", tabletI: 'images/categories/fun-tb.png', deskI: 'images/categories/fun-d.png'}, {title: 'задуматься и удивиться', mbI: "images/categories/think-mb.png", tabletI: 'images/categories/think-tb.png', deskI: 'images/categories/think-d.png'}]
 
       ul.categories(class=spec.__class)&attributes(attributes)
         each category in categories
@@ -12,7 +12,8 @@ mixin categories(spec)
             .category-card__content
               .category-card__back
               picture.category-card__image
-                source(srcset=category.tabletI media="(min-width: 579px)")
+                source(srcset=category.deskI media="(min-width: 1100px)")
+                source(srcset=category.tabletI media="(min-width: 597px)")
                 img(src=category.mbI alt=category.title)
               p.category-card__name.text.text--category
                | #{category.title}

@@ -10,14 +10,15 @@ mixin advantages(spec)
       div.advantages__background
           img(src='images/santa.png')
       div.advantages__banner
-        .advantages__left-image
-          img(src='images/promo-left.png' alt="авимакс сожержит активный противоввирусный компонент")
-        .advantages__right-image
-          img(src='images/promo-right.png' alt="снимает симпоты и борется с вирусом")
-        +button(
-          {__class:'advantages__btn button--action',
-          title: 'узнать больше '}
-        )
+        .advantages__container
+          .advantages__left-image
+            img(src='images/promo-left.png' alt="авимакс сожержит активный противоввирусный компонент")
+          .advantages__right-image
+            img(src='images/promo-right.png' alt="снимает симпоты и борется с вирусом")
+          +button(
+            {__class:'advantages__btn button--action',
+            title: 'узнать больше '}
+          )
 
 
 

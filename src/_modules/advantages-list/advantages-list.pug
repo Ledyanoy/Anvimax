@@ -2,7 +2,7 @@ mixin advanages-list(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  - var items = [ { icon: '#ico-nose', text: '#nose-text'}, { icon: '#throat-pain', text: '#throat-text'}, { icon: '#fever', text: '#fever-text'}, { icon: '#stronger', text: '#stronger-text'}, { icon: '#lower', text: '#lower-text'}, { icon: '#blocked', text: '#block-text'}]
+  - var items = [ { icon: '#ico-nose', text: '#nose-text', class:'nose-text'}, { icon: '#throat-pain', text: '#throat-text', class:'throat-pain'}, { icon: '#fever', text: '#fever-text', class:'fever-text'}, { icon: '#stronger', text: '#stronger-text' , class:'stronger-text'}, { icon: '#lower', text: '#lower-text' , class:'lower-text'}, { icon: '#blocked', text: '#block-text' , class:'block-text'}]
 
   ul.advantages-list(class=spec.__class)&attributes(attributes)
     each item in items
@@ -10,7 +10,7 @@ mixin advanages-list(spec)
         svg.icon.advantages-list__icon
           use(xlink:href=item.icon)
 
-        svg.icon.advantages-list__text-icon
+        svg.icon.advantages-list__text-icon(class=item.class)
           use(xlink:href=item.text)
 
 

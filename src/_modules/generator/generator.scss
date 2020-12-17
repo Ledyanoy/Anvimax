@@ -5,8 +5,18 @@
   background-position-y: bottom;
   background-size: cover;
   padding-bottom: 80px;
+  @media screen and (min-width: $laptop - 1) {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
 }
 
 .generator__title {
   margin-bottom: 10px;
+  @media screen and (min-width: $laptop - 1) {
+    margin-bottom: 14px;
+  }
+  @media screen and (min-width: $tablet - 1) {
+    max-width: 80%;
+  }
 }

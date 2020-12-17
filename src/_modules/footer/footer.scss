@@ -11,4 +11,7 @@ footer {
 
 .footer__alert {
   padding: 5px 0;
+  @media screen and (min-width: $tablet - 1) {
+    display: none;
+  }
 }

@@ -3,5 +3,5 @@ mixin button(spec)
   - spec.__class = spec.__class || ''
   - spec.title = spec.title || 'кнопка'
 
-  button.btn(class=spec.__class)&attributes(attributes) #{spec.title}
+  a.btn(class=spec.__class)&attributes(attributes) #{spec.title}
 

@@ -8,8 +8,28 @@
   flex-direction: column;
   flex-wrap: wrap;
   max-height: 110px;
-  margin-bottom: -110px;
   position: relative;
+  max-width: 300px;
+  @media screen and (min-width: 400px) {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (min-width: $laptop - 1) {
+    max-height: 200px;
+    max-width: 600px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  @media screen and (min-width: $laptop + 20) {
+    margin-left: auto;
+  }
+  @media screen and (min-width: $tablet - 1) {
+    padding-left: 0;
+    align-content: space-between;
+    max-width: 800px;
+  }
+
 
 }
 
@@ -17,6 +37,9 @@
   display: flex;
   margin-bottom: 8px;
   align-items: center;
+  @media screen and (min-width: $laptop - 1) {
+    margin-bottom: 20px;
+  }
 }
 
 
@@ -25,21 +48,68 @@
   width: 20px;
   margin-right: 8px;
 
-  svg {
-    width: 100%;
-    height: 100%;
+  @media screen and (min-width: $laptop - 1) {
+    height: 36px;
+    width: 36px;
+    margin-right: 15px;
   }
 }
 
 .advantages-list__text-icon {
   height: 22px;
-  max-width: 105px;
 
-
-  svg {
-    width: auto;
-    height: 100%;
+  &.nose-text {
+    width: 97px;
   }
+
+  &.throat-pain {
+    width: 61px;
+  }
+
+  &.fever-text {
+    width: 101px;
+  }
+
+  &.stronger-text {
+    width: 89px;
+  }
+
+  &.lower-text {
+    width: 86px;
+  }
+
+  &.block-text {
+    width: 101px;
+  }
+
+
+  @media screen and (min-width: $laptop - 1) {
+    height: 40px;
+    &.nose-text {
+      width: 170px;
+    }
+
+    &.throat-pain {
+      width: 115px;
+    }
+
+    &.fever-text {
+      width: 170px;
+    }
+
+    &.stronger-text {
+      width: 148px;
+    }
+
+    &.lower-text {
+      width: 150px;
+    }
+
+    &.block-text {
+      width: 180px;
+    }
+  }
+
 }
 
 .advantages-list__item-text {

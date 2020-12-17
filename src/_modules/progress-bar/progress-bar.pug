@@ -4,8 +4,10 @@ mixin progress-bar(spec)
 
   div.progress-bar(class=spec.__class)&attributes(attributes)
     .progress-bar__content
-      img.progress-bar__logo(src="images/progress-bar.png" alt='прогресс-бар-анвимакс')
-      .progress-bar__progress-line
+      picture
+        source(srcset="images/progress-bar.png" media="(min-width: 1100px)")
+        source(srcset="images/long-progress-bar.png" media="(min-width: 579px)")
+        img.progress-bar__logo(src="images/progress-bar.png" alt='прогресс-бар-анвимакс')
       p.progress-bar__text.text.text--progress-bar
         span 0
           |%
