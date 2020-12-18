@@ -4,7 +4,7 @@ mixin generator(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  div.generator(class=spec.__class)&attributes(attributes)
+  div.generator(class=spec.__class)(id='generator')
     .content
       h2.generator__title.text.text--bg Запускай
         |  киногенератор и&nbsp;наслаждайся просмотром!

@@ -4,7 +4,6 @@
   background-position-x: center;
   background-position-y: top;
   margin-top: -150px;
-  padding-bottom: 10%;
   background-repeat: no-repeat;
   @media screen and (min-width: $laptop - 1) {
     padding-top: 155px;
@@ -13,6 +12,7 @@
 
 .result-list__inner {
   background-color: #1D193F;
+  padding-bottom: 10%;
 }
 
 .result-list__content {
@@ -23,11 +23,17 @@
   @media screen and (min-width: $laptop - 1) {
     margin-bottom: 0;
   }
+  @media screen and (min-width: $tablet + 200) {
+    margin-bottom: 10px;
+  }
 
 }
 
 .result-list__desc {
   margin-bottom: 16px;
+  @media screen and (min-width: $tablet + 200) {
+    margin-bottom: 30px;
+  }
 }
 
 .result-list {
@@ -43,8 +49,11 @@
 }
 
 .result-list__container {
-  max-width: 435px;
+  max-width: 272px;
   margin: 0 auto;
+  @media screen and (min-width: $laptop - 120) {
+    max-width: 435px;
+  }
   @media screen and (min-width: $laptop - 1) {
     max-width: 522px;
   }
@@ -59,6 +68,9 @@
   margin-right: 8px;
   margin-bottom: 16px;
   width: 100%;
+  &:nth-child(n+7) {
+    display: none;
+  }
   @media screen and (min-width: $laptop - 1) {
     max-width: 150px;
     margin-left: 12px;
@@ -66,6 +78,13 @@
   }
   @media screen and (min-width: $tablet - 1) {
     max-width: 140px;
+    &:nth-child(n+7) {
+      display: block;
+    }
+  }
+  @media screen and (min-width: $desktop - 1) {
+    max-width: 148px;
+    margin-bottom: 40px;
   }
 }
 

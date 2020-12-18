@@ -25,7 +25,7 @@
   }
   @media screen and (min-width: $desktop - 1) {
     padding-top: 120px;
-    padding-bottom: 200px;
+    padding-bottom: 165px;
   }
 }
 
@@ -34,12 +34,19 @@
   @media screen and (min-width: $laptop - 1) {
     margin-bottom: 12px;
   }
+  @media screen and (min-width: $desktop - 1) {
+    margin-bottom: 28px;
+  }
 }
 
 .intro__desc {
   margin-bottom: 10px;
   @media screen and (min-width: $laptop - 1) {
     margin-bottom: 16px;
+  }
+  @media screen and (min-width: $desktop - 1) {
+    max-width: 420px;
+    margin-bottom: 36px;
   }
 }
 

@@ -7,11 +7,11 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  @media screen and (min-width:$desktop - 1) {
+    position: static;
+  }
 }
 
 .footer__alert {
   padding: 5px 0;
-  @media screen and (min-width: $tablet - 1) {
-    display: none;
-  }
 }

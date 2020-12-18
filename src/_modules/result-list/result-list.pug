@@ -17,5 +17,5 @@ mixin result-list(spec)
                     img.film__image(src=film.img alt=film.name)
                     p.film__name.text.text--film-name #{film.name}
 
-          +button({__class: 'result-list__btn button--generation', title: 'Сгенерировать новую подборку'})
+          +button({__class: 'result-list__btn button--generation', title: 'Сгенерировать новую подборку', link: '#generator'})
 

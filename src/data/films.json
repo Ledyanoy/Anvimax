@@ -1,0 +1,670 @@
+{
+  "films": [
+    {
+      "name": "Та еще парочка",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Призрак",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/127040",
+      "picture": "https://thumbs.dfs.ivi.ru/storage31/contents/2/3/634cd194e30a7497673f7b1cd4803c.jpg/234x360/"
+    },
+    {
+      "name": "Пятница\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/138452\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage4/contents/f/c/cd396a03d248cf9b95eeb0fb96b8ab.jpg/234x360/\n"
+    },
+    {
+      "name": "О чем говорят мужчины. Продолжение\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/143156\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage6/contents/0/7/11d0f1867bc319795239a2a6a36be9.jpg/234x360/\n"
+    },
+    {
+      "name": "Красотка на всю голову\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/190727",
+      "picture": "https://thumbs.dfs.ivi.ru/storage37/contents/9/b/d1a44f2a45236916574968904d0714.jpg/234x360/\n"
+    },
+    {
+      "name": "Славные парни",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/138661",
+      "picture": "https://thumbs.dfs.ivi.ru/storage8/contents/2/b/31969ae047ada429f8ad3ec2cdd07a.jpg/234x360/\n"
+    },
+    {
+      "name": "Завтрак у папы\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/159535\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage32/contents/b/9/620b9e42a072ac4016fe8d86f1daee.jpg/234x360/\n"
+    },
+    {
+      "name": "Дорогой папа\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/279187\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage8/contents/b/4/cd140052fb7f4f8d77352d456c18a3.jpg/234x360/\n"
+    },
+    {
+      "name": "Напарник\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/137540\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage15/contents/a/3/8090b7a1dbbcf82f6718791fa6fe07.jpg/234x360/\n"
+    },
+    {
+      "name": "Имя",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/210208\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage32/contents/a/0/7cbf074af048097966966059e26dc7.jpg/234x360/\n"
+    },
+    {
+      "name": "Подарок с характером\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/119854\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage37/contents/5/1/614d94d91f020e1ae3d0f8ddd04233.jpg/234x360/\n"
+    },
+    {
+      "name": "Елки лохматые\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/115694\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage5/contents/b/3/5d5ee3bb68def83e943014ae1c3104.jpg/234x360/\n"
+    },
+    {
+      "name": "Новогодний ремонт\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/414509\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage26/contents/5/6/42fc21980202e69096f16b49722d5d.jpg/234x360/\n"
+    },
+    {
+      "name": "Ёлки 1914\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/121499\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage32/contents/b/c/1ebddd7c45ecfc3d3f36c02be6bb7c.jpg/234x360/\n"
+    },
+    {
+      "name": "Елки последние\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/211801\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage5/contents/8/d/5aa736ececeeefee04b3b91ba8a96e.jpg/234x360/\n"
+    },
+    {
+      "name": "Starперцы\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/103291\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage2/contents/5/3/5685aeae4840b6bed38e518afce64c.jpg/234x360/\n"
+    },
+    {
+      "name": "Красавчик\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/89627\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage4/contents/d/7/b6388e35c039ba5519b1ee28804119.jpg/234x360/\n"
+    },
+    {
+      "name": "Красавчик 2\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/89577\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage33/contents/e/3/df2f8234d5d96d5dd4253a5699ad04.jpg/234x360/\n"
+    },
+    {
+      "name": "О чем говорят мужчины\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/31498\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage4/contents/c/e/244648e5903dad5ca58564be94fa89.jpg/234x360/\n"
+    },
+    {
+      "name": "Краденое свидание\n",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/145086\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage3/contents/f/4/650618039dae3c05b5f432498d1b6b.jpg/234x360/\n"
+    },
+    {
+      "name": "Короли льда\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/315918\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage31/contents/4/0/6fe64c497a1eb9396610385fb2faa8.jpg/234x360/\n"
+    },
+    {
+      "name": "Король кёрлинга\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/413410\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage33/contents/6/3/49ff348913953305bb83fa38fa0d8c.jpg/234x360/\n"
+    },
+    {
+      "name": "Вторая жизнь Уве\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/164266\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage4/contents/6/a/b7827eafb479c690a0ca2a3d7ae3d0.jpg/234x360/\n"
+    },
+    {
+      "name": "О всех созданиях – больших и малых S01E01\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/o-vseh-sozdaniyah-bolshih-i-malyih/447978\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/6/a/022ff77e12128e3f37a82861c68a7f.jpg/234x360/\n"
+    },
+    {
+      "name": "Вики Кристина Барселона\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/2492\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage26/contents/8/a/218aa94666648df982f89b30bfcfee.jpg/234x360/\n"
+    },
+    {
+      "name": "Столетний старик, который вылез в окно и исчез\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/156554\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage37/contents/e/4/eaea06a8ea14d5c76ccf5f5f9754d0.jpg/234x360/\n"
+    },
+    {
+      "name": "Не/смотря ни на что\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/175047\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage37/contents/f/9/ad14666d9052887d30a643411dc930.jpg/234x360/\n"
+    },
+    {
+      "name": "Рождественский коттедж\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/89669\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage4/contents/f/e/2310412cc4b1659c109ae79fb91a93.jpg/234x360/\n"
+    },
+    {
+      "name": "Иван Васильевич меняет профессию\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/53141\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage3/contents/4/9/115582612d85d505879af66229e399.jpg/234x360/\n"
+    },
+    {
+      "name": "Рыба моей мечты\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/63143\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage29/contents/c/1/33538b514c65b17b3fbe125b331296.jpg/234x360/\n"
+    },
+    {
+      "name": "Домовой\n",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/257854\n",
+      "picture": "https://thumbs.dfs.ivi.ru/storage15/contents/6/6/212609fbd50411bd32be5afce47c1b.jpg/234x360/\n"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "comedy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage31/contents/4/0/6fe64c497a1eb9396610385fb2faa8.jpg/234x360/\n"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "drama",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    },
+    {
+      "name": "Та еще фАНТАСТИКА",
+      "genre": "fantasy",
+      "link": "https://www.ivi.ru/watch/186836",
+      "picture": "https://thumbs.dfs.ivi.ru/storage39/contents/4/7/766e648576fda283f48d2a3387e11d.jpg/234x360/"
+    }
+  ]
+}

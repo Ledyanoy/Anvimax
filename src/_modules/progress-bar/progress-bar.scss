@@ -13,4 +13,34 @@
   right: 4px;
 }
 
+.progress-bar__line {
+  position: absolute;
+  top: 25px;
+  left: 91px;
+  content: '';
+  display: block;
+  height: 9px;
+  width: 0;
+  background: linear-gradient(90deg, #114DCD 0%, #FF645A 100%);
+  &::before {
+    content: '';
+    position: absolute;
+    height: 12px;
+    width: 2px;
+    background-color: white;
+    left: -1px;
+    bottom: -2px;
+    transform: rotate(9deg);
+    @media screen and (min-width: $laptop - 1)  {
+      height: 20px;
+      bottom: -5px;
+    }
+  }
+  @media screen and (min-width: $laptop - 1) {
+    top: 33px;
+    left: 120px;
+    height: 12px;
+  }
+}
+
 

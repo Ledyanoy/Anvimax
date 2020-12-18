@@ -2,6 +2,7 @@ mixin button(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
   - spec.title = spec.title || 'кнопка'
+  - spec.link = spec.link || null
 
-  a.btn(class=spec.__class)&attributes(attributes) #{spec.title}
+  a.button(class=spec.__class)(href=spec.link) #{spec.title}
 
