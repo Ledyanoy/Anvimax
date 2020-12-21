@@ -2,7 +2,7 @@
 
 .advantages {
   &__left-image {
-    width: 52%;
+    width: 70%;
     align-self: center;
     @media screen and (min-width: $tablet - 1) {
       max-width: 456px;
@@ -10,10 +10,13 @@
   }
 
   &__right-image {
-    width: 48%;
+    width: 30%;
     align-self: center;
+    margin-right: -10px;
+    margin-left: 10px;
+
     @media screen and (min-width: $tablet - 1) {
-      max-width: 366px;
+      max-width: 280px;
     }
   }
 }
@@ -37,6 +40,24 @@
 
 }
 
+.advantages__utp {
+  display: flex;
+  padding-left: 10px;
+  margin-top: -10px;
+  width: 100%;
+  @media screen and (min-width: $laptop - 1) {
+    margin-top: -45px;
+  }
+  @media screen and (min-width: $tablet - 1) {
+    justify-content: space-between;
+  }
+  img{
+    width: 49%;
+    height: auto;
+    max-width: 344px;
+  }
+}
+
 .advantages__banner {
   background: linear-gradient(90deg, #1C2454 2.01%, #DA291C 100%);
   margin-top: -8%;
@@ -45,9 +66,7 @@
     width: 100%;
     height: auto;
     align-self: center;
-  }
-  @media screen and (min-width: $laptop - 1) {
-
+    margin-bottom: -15px;
   }
   @media screen and (min-width: $tablet - 1) {
     margin-top: -52px;
@@ -55,7 +74,7 @@
 }
 
 .advantages__container {
-  padding: 15px 12px 21px;
+  padding: 15px 12px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

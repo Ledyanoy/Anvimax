@@ -1,0 +1,16 @@
+.share-links__list {
+  display: flex;// share-links styles
+  padding-left: 0;
+  list-style: none;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.share-links__item:not(:last-of-type) {
+  margin-right: 13px;
+}
+
+.share-links__icon {
+  width: 40px;
+  height: 40px;
+}

@@ -1,4 +1,5 @@
 include ../categories/categories
+  include ../share-links/share-links
 
 mixin generator(spec)
   - spec = spec || {}
@@ -10,5 +11,6 @@ mixin generator(spec)
         |  киногенератор и&nbsp;наслаждайся просмотром!
       p.text.text--reg Выбери, чтобы ты хотел испытать от просмотра
       +categories
+      +share-links
 
 

@@ -14,6 +14,7 @@
 @import '../_modules/advantages/advantages';
 @import '../_modules/advantages-list/advantages-list';
 @import '../_modules/generator/generator';
+@import '../_modules/share-links/share-links';
 @import '../_modules/categories/categories';
 @import '../_modules/result-list/result-list';
 @import '../_modules/progress-bar/progress-bar';
@@ -38,7 +39,7 @@ html,
 body {
   height: 100%;
   font-size: 100%;
-  background-color: #1C2453;
+  background-color: #1C2454;
   font-family: 'Text Cound Pro', Arial;
 }
 
@@ -68,11 +69,14 @@ body {
 }
 
 .content{
-  padding: 0 24px;
+  padding-left: 20px;
+  padding-right: 20px;
   max-width: 1208px;
   margin: 0 auto;
+  overflow: hidden;
   @media screen and (min-width: $laptop - 1) {
-    padding: 0 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     max-width: 1268px;
 
   }

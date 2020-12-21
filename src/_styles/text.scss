@@ -5,7 +5,7 @@
   &--bg {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.8125rem;
+    font-size: 1.625rem;
     line-height: 1.75rem;
     text-shadow: 0px 2.14047px 18.194px rgba(0, 0, 0, 0.25);
     @media screen and (min-width: $laptop - 1) {
@@ -80,6 +80,11 @@
     @media screen and (min-width: $laptop - 1) {
       font-size: 2em;
     }
+  }
+
+  &--share-links {
+    text-align: center;
+    line-height: 1.875rem ;
   }
 
 }

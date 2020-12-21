@@ -14,19 +14,13 @@ block content
   div.height-wrapper
     .container
       +header
-      h1.visually-hidden Авимакс
+      h1.visually-hidden Анвимакс
       .wrapper
-        +intro
-        +advantages
-          h1 Welcome to Anvimax
-          p.
-            Take a look at the
-            #[+link({text: 'documentation'})(href='https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---')]
-            and start mixing up something awesome.
-          p
-            img.logo(src="images/yeogurt-swirl.png", width="75px")
-        +generator
-        +result-list
+        section.js-counters-scroll(data-ga-event='Продуктовый блок' data-ga-path='/product')
+          +intro
+          +advantages
+        section.js-counters-scroll(data-ga-event='блок киногенератора' data-ga-path='/kino-generator')
+          +generator
+        section.js-counters-scroll(data-ga-event='подборка' data-ga-path='/result-list')
+          +result-list
     +footer
-
-

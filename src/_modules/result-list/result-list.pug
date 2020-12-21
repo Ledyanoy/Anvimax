@@ -2,20 +2,20 @@ mixin result-list(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  - var films = [{name:'Я худею', img:'images/films/1.png'}, {name:'Марафон желаний', img:'images/films/2.png'}, {name:'Домовой', img:'images/films/3.png'},{name:'О чём говорят мужчины', img:'images/films/4.png'},{name:'Служебный роман', img:'images/films/5.png'},{name:'Та ещё парочка', img:'images/films/6.png'},{name:'Любовь и голуби', img:'images/films/14.png'},{name:'1+1', img:'images/films/7.png'},{name:'Семь ужинов', img:'images/films/8.png'},{name:'Красотка на всю голову', img:'images/films/9.png'},{name:'Бабушка лёгкого поведения', img:'images/films/10.png'},{name:'Горько!', img:'images/films/11.png'},{name:'Зачётный препод', img:'images/films/12.png'},{name:'Особенности национальной охоты', img:'images/films/13.png'}]
+  - var films = [{name:'Я худею', img:'images/films/1.png', link: 'https://www.ivi.ru/watch/173997'}, {name:'Марафон желаний', img:'images/films/2.png' , link: 'https://www.ivi.ru/watch/357531'}, {name:'Домовой', img:'images/films/3.png' , link: 'https://www.ivi.ru/watch/257854'},{name:'О чём говорят мужчины', img:'images/films/4.png' , link: 'https://www.ivi.ru/watch/31498'},{name:'Служебный роман', img:'images/films/5.png' , link: 'https://www.ivi.ru/watch/sluzhebnyi_roman'},{name:'Та ещё парочка', img:'images/films/6.png' , link: 'https://www.ivi.ru/watch/186836'},{name:'Любовь и голуби', img:'images/films/14.png' , link: 'https://www.ivi.ru/watch/53119'},{name:'1+1', img:'images/films/7.png' , link: 'https://www.ivi.ru/watch/109726'},{name:'Семь ужинов', img:'images/films/8.png' , link: 'https://www.ivi.ru/watch/214284'},{name:'Красотка на всю голову', img:'images/films/9.png' , link: 'https://www.ivi.ru/watch/190727'},{name:'Бабушка лёгкого поведения', img:'images/films/10.png' , link: 'https://www.ivi.ru/watch/172245'},{name:'Горько!', img:'images/films/11.png' , link: 'https://www.ivi.ru/watch/103329'},{name:'Зачётный препод', img:'images/films/12.png' , link: 'https://www.ivi.ru/watch/125739'},{name:'Особенности национальной охоты', img:'images/films/13.png' , link: 'https://www.ivi.ru/watch/19909'}]
 
     div.result-list__outer(class=spec.__class)&attributes(attributes)
       .result-list__inner
         .content.result-list__content
-          p.result-list__title.text.text--h3 Хочу посмеяться
-          p.result-list__desc.text.text--middle Персональная подборка для тех, кто любит безудержное веселье
+          p.result-list__title.text.text--h3 Хочу новогоднее настроение
+          p.result-list__desc.text.text--middle Персональная подборка для тех, кто не хочет скучать в новогодние праздники
           div.result-list__container
             ul.result-list
               each film in films
                 li.film
-                  a(href='').film__card
+                  a(href=film.link target='_blank' data-ga-event='Клик по фильму').film__card.js-counters-click
                     img.film__image(src=film.img alt=film.name)
                     p.film__name.text.text--film-name #{film.name}
 
-          +button({__class: 'result-list__btn button--generation', title: 'Сгенерировать новую подборку', link: '#generator'})
+          +button({__class: 'result-list__btn button--generation', title: 'Сгенерировать новую подборку', link: '#generator', dataGa: 'Клик Сгенерировать новую подборку'})
 

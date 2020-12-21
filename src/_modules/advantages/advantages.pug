@@ -5,7 +5,11 @@ mixin advantages(spec)
   - spec.__class = spec.__class || ''
 
   div.advantages(class=spec.__class)&attributes(attributes)
-    +advanages-list
+    .advantages__container
+      .advantages__utp
+        img(src='images/first-utp.png' alt="авимакс снимает симптомы")
+        img(src='images/second-utp.png' alt="авимакс борется с вирусом")
+
     div.advantages__desc
       div.advantages__background
           img(src='images/santa.png' alt='Санта с авимаксом')
@@ -17,7 +21,9 @@ mixin advantages(spec)
             img(src='images/promo-right.png' alt="снимает симпоты и борется с вирусом")
           +button(
             {__class:'advantages__btn button--action',
-            title: 'узнать больше '}
+            title: 'узнать больше ',
+            dataGa: 'Клик Узнать больше'
+            }
           )
 
 

@@ -19,6 +19,7 @@ mixin categories(spec)
                 | #{category.title}
               +button({
                 __class: 'button--action category-card__btn',
-                title: 'сгенерировать'
+                title: 'сгенерировать',
+                dataGa: 'Клик Генерировать подборку'
               })
             +progress-bar({__class: 'category-card__progress'})

@@ -1,20 +1,16 @@
 // intro styles
 .intro {
   padding-top: 24px;
-  background-image: url("/images/intro-mobile-back.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: right bottom;
   position: relative;
   @media screen and (min-width: $tablet - 1) {
-    background-image: url("/images/intro-desk-back.png");
-    background-size: cover;
+
   }
   &__content {
     position: relative;
     @media screen and (min-width: $tablet - 1) {
       display: flex;
       justify-content: center;
+      padding-bottom: 110px;
     }
     @media screen and (min-width: $desktop - 1) {
       justify-content: flex-start;
@@ -49,20 +45,9 @@
     margin-bottom: 36px;
   }
 }
-
-.intro__image {
-  max-width: 120%;
-  height: auto;
-  margin-top: 65px;
-  margin-left: -50px;
-  @media screen and (min-width: $laptop - 1) {
-    max-width: 115%;
-    margin-top: 100px;
-    margin-left: -75px;
-  }
+.intro__picture {
   @media screen and (min-width: $tablet - 1) {
     max-width: 50%;
-    margin-left: -55px;
   }
   @media screen and (min-width: $desktop - 1) {
     position: absolute;
@@ -71,7 +56,23 @@
     top: -30px
   }
 }
+.intro__image {
+  max-width: 100%;
+  height: auto;
+  margin-top: -30px;
+  margin-left: -20px;
+  background-size: 100%;
+  @media screen and (min-width: $laptop - 1) {
+    max-width: 110%;
+    margin-top: -60px;
+    margin-left: -90px;
+  }
+  @media screen and (min-width: $tablet - 1) {
+    margin-left: -55px;
+  }
+}
 .intro__left-side {
+
   @media screen and (min-width: $tablet - 1) {
     width: 450px;
   }

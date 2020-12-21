@@ -5,14 +5,16 @@ mixin intro(spec)
   - spec.__class = spec.__class || ''
 
   div.intro
-    .content.intro__content
+    .intro__content.content
       .intro__left-side
-        h2.intro__title.text.text--bg Развлечение
-         |  во&nbsp;время лечения
-        p.intro__desc.text.text--reg Заболел во время праздников, но хочется обрести новогоднее настроение? Лечись с «Анвимакс», а наш киногенератор подберет фильм, чтобы ты не скучал!
-        +button({
-          __class: 'button--action intro__btn',
-          title: 'подобрать фильм',
-          link: '#generator'
-        })
-      img(src="images/avimaks.png" alt='anvimaks от гриппа и простуды').intro__right-side.intro__image
+          h2.intro__title.text.text--bg Генератор новогоднего настроения
+          p.intro__desc.text.text--reg Насладись просмотром любимого кино с «АнвиМакс».
+            |  А&nbsp;чтобы&nbsp;простуда и грипп не омрачали новогоднее настроение, защити себя легендарной силой двойного действия!
+          +button({
+            __class: 'button--action intro__btn',
+            title: 'подобрать фильм',
+            link: '#generator',
+            dataGa: 'Клик Подобрать фильм'
+          })
+      .intro__picture
+        img(src="images/anvimax.png" alt='anvimaks от гриппа и простуды').intro__right-side.intro__image

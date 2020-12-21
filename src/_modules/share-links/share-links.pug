@@ -1,0 +1,16 @@
+mixin share-links(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  -var links = [{name:'facebook', icon:'#fb', link:'https://www.facebook.com/sharer/sharer.php?u=anvimax.ivi-sp.htc-cs.com/'}, {name:'odnoklassniki', icon:'#Odnoklassniki', link:'https://connect.ok.ru/offer?url=http://anvimax.ivi-sp.htc-cs.com&title=Анвимакс&imageUrl=http://anvimax.ivi-sp.htc-cs.com'}, {name:'vkontakte', icon:'#vk', link:'http://vkontakte.ru/share.php?url=http://anvimax.ivi-sp.htc-cs.com'},]
+
+  div.share-links(class=spec.__class)&attributes(attributes)
+    p.text.text--share-links Поделись киногенератором с друзьями
+    ul.share-links__list
+        each link in links
+          li.share-links__item
+            a.share-links__link(href=link.link target="_blank")
+              svg.share-links__icon
+                use(xlink:href=link.icon)
+
+

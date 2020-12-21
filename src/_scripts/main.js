@@ -3,6 +3,15 @@
 
 'use strict';
 
+import GaAnalytics from './ga';
+const counters = new GaAnalytics('UA-45150148-1');
+
+window.addEventListener('load', () => {
+  counters.init();
+});
+
+
+
 import 'core-js';
 import 'regenerator-runtime/runtime';
 // import $ from 'jquery';
@@ -16,6 +25,9 @@ const categories = document.querySelector('.categories');
 const categoriesList = categories.querySelectorAll('.category-card');
 const resultList = document.querySelector('.result-list');
 const resultListInner = document.querySelector('.result-list__inner');
+const resultListTitle = resultListInner.querySelector('.result-list__title');
+const resultListDesc = resultListInner.querySelector('.result-list__desc');
+
 
 fetch('data/films.json')
   .then(response => response.json())
@@ -42,19 +54,42 @@ const checkCategory = (category) => {
   const categoryName = category.dataset.genre;
   if (categoryName === 'fun') {
     prepareFilms(comedyFilms);
+    changeText('comedy');
   } else if (categoryName === 'pleasure') {
     prepareFilms(dramaFilms);
+    changeText('drama');
   } else {
     prepareFilms(fantasyFilms);
+    changeText('fantasy');
   }
 }
 
 const prepareFilms = (array) => {
-  const newArray = array.sort(function(){
+  const newArray = array.sort(function () {
     return Math.random() - 0.5;
   }).slice(0, 14);
-  setTimeout(()=>renderFilms(newArray),5500)
+  setTimeout(() => renderFilms(newArray), 5500)
 
+}
+
+const changeText = (genre) => {
+  if (genre === 'comedy') {
+    setTimeout(() => {
+      resultListTitle.innerHTML = 'Хочу посмеяться';
+      resultListDesc.innerHTML = 'Персональная подборка для тех, кто любит безудержное веселье';
+    }, 5500)
+
+  } else if (genre === 'drama') {
+    setTimeout(() => {
+      resultListTitle.innerHTML = 'Хочу умилиться';
+      resultListDesc.innerHTML = 'Персональная подборка для тех, кто соскучился по минорным нотам';
+    }, 5500)
+  } else {
+    setTimeout(() => {
+      resultListTitle.innerHTML = 'Хочу удивиться';
+      resultListDesc.innerHTML = 'Персональная подборка для тех, кто верит в волшебство';
+    }, 5500)
+  }
 }
 
 const makeCategoryActive = (category) => {
@@ -102,7 +137,7 @@ const renderFilms = (array) => {
   const newListItems = array.map(item => {
     return `
       <li class="film">
-        <a class="film__card" href='${item.link}' target="_blank">
+        <a class="film__card js-counters-click" href='${item.link}' target="_blank" data-ga-event='Клик по фильму'>
           <img class="film__image" src="${item.picture}" alt="${item.name}"/>
           <p class="film__name text text--film-name">${item.name}</p>
         </a>
