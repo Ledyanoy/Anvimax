@@ -8,5 +8,17 @@
   min-width: 320px;
   max-width: 1920px;
   margin: 0 auto;
+  position: relative;
+  @media screen and (min-width: $desktop - 1) {
+    &::before{
+      content: '';
+      position: absolute;
+      top: 190px;
+      background-image: url("/images/snowflakes.png");
+      display: block;
+      width: 100%;
+      height: 1870px;
+    }
+  }
 }
 

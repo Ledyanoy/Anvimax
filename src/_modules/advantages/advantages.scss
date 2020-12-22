@@ -1,6 +1,7 @@
 // advantages styles
 
 .advantages {
+  position: relative;
   &__left-image {
     width: 70%;
     align-self: center;
@@ -54,7 +55,7 @@
   img{
     width: 49%;
     height: auto;
-    max-width: 344px;
+    max-width: 300px;
   }
 }
 

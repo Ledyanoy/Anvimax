@@ -5,6 +5,10 @@ mixin intro(spec)
   - spec.__class = spec.__class || ''
 
   div.intro
+    picture
+      source(srcset='/images/intro-back-desk.png' media="(min-width: 899px)")
+      img.intro__back(src='/images/intro-back.png' alt='кружка на столе')
+
     .intro__content.content
       .intro__left-side
           h2.intro__title.text.text--bg Генератор новогоднего настроения

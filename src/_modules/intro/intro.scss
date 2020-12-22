@@ -5,6 +5,7 @@
   @media screen and (min-width: $tablet - 1) {
 
   }
+
   &__content {
     position: relative;
     @media screen and (min-width: $tablet - 1) {
@@ -16,12 +17,51 @@
       justify-content: flex-start;
     }
   }
+
   @media screen and (min-width: $laptop - 1) {
     padding-top: 42px;
   }
   @media screen and (min-width: $desktop - 1) {
     padding-top: 120px;
-    padding-bottom: 165px;
+    padding-bottom: 60px;
+  }
+}
+
+.intro__back {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 3%;
+  left: -3%;
+  @media screen and (min-width: $mobile + 30) {
+    top: -10%;
+  }
+  @media screen and (min-width: $mobile + 100) {
+    top: -30%;
+  }
+  @media screen and (min-width: $laptop - 1) {
+    width: 95%;
+    top: -3%;
+  }
+  @media screen and (min-width: $tablet - 100) {
+    width: 100%;
+    top: -15%;
+    left: 0;
+  }
+  @media screen and (min-width: $tablet - 1) {
+    width: 120%;
+    right: -12%;
+    top: -4%;
+    left: auto;
+  }
+  @media screen and (min-width: $desktop - 1) {
+    width: 200%;
+    top: -35px;
+    right: auto;
+    max-width: 1900px;
+    left: 45%;
+    transform: translateX(-50%);
+
   }
 }
 
@@ -45,6 +85,7 @@
     margin-bottom: 36px;
   }
 }
+
 .intro__picture {
   @media screen and (min-width: $tablet - 1) {
     max-width: 50%;
@@ -52,25 +93,33 @@
   @media screen and (min-width: $desktop - 1) {
     position: absolute;
     max-width: 70%;
-    right: -155px;
-    top: -30px
+    right: 0;
+    top: -100px
   }
 }
+
 .intro__image {
   max-width: 100%;
   height: auto;
-  margin-top: -30px;
+  margin-top: -5%;
   margin-left: -20px;
   background-size: 100%;
   @media screen and (min-width: $laptop - 1) {
-    max-width: 110%;
+    max-width: 120%;
     margin-top: -60px;
-    margin-left: -90px;
+    margin-left: -115px;
   }
   @media screen and (min-width: $tablet - 1) {
     margin-left: -55px;
+    margin-top: 0;
+  }
+  @media screen and (min-width: $desktop - 1) {
+    margin-left: 0;
+    margin-top: 0;
+    max-width: 100%;
   }
 }
+
 .intro__left-side {
 
   @media screen and (min-width: $tablet - 1) {
