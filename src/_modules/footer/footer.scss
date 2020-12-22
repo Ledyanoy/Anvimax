@@ -2,16 +2,22 @@
 footer {
   flex: 0 0 auto;
   padding-bottom: 48px;
+  padding-top: 10px;
   background: #252452;
   width: 100%;
   position: fixed;
   left: 0;
   bottom: 0;
-  @media screen and (min-width:$desktop - 1) {
+  @media screen and (min-width:$tablet + 80) {
     position: static;
+    padding-bottom: 306px;
   }
 }
 
-.footer__alert {
-  padding: 5px 0;
+.footer__disclaimer {
+  width: 100%;
+  height: auto;
+  max-width: 1640px;
+  margin: 0 auto;
+
 }

@@ -2,9 +2,7 @@
 .intro {
   padding-top: 24px;
   position: relative;
-  @media screen and (min-width: $tablet - 1) {
-
-  }
+  overflow: hidden;
 
   &__content {
     position: relative;
@@ -31,7 +29,7 @@
   position: absolute;
   width: 100%;
   height: auto;
-  top: 3%;
+  top: 7%;
   left: -3%;
   @media screen and (min-width: $mobile + 30) {
     top: -10%;
@@ -41,7 +39,7 @@
   }
   @media screen and (min-width: $laptop - 1) {
     width: 95%;
-    top: -3%;
+    top: 15%;
   }
   @media screen and (min-width: $tablet - 100) {
     width: 100%;

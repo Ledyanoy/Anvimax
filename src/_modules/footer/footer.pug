@@ -4,4 +4,7 @@ mixin footer(spec)
 
   footer.footer(class=spec.__class)&attributes(attributes)
     .content
-      p.footer__alert.text.text--alert  ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ. НЕОБХОДИМО ОЗНАКОМИТЬСЯ С ИНСТРУКЦИЕЙ ИЛИ ПРОКОНСУЛЬТИРОВАТЬСЯ СО СПЕЦИАЛИСТОМ
+        picture
+          source(srcset='images/disclaimer-desk.png' media="(min-width: 980px)")
+          source(srcset='images/disclaimer-laptop.png' media="(min-width: 400px)")
+          img.footer__disclaimer(src='images/disclaimer-mobile.png' alt='дисклаймер')

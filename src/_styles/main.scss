@@ -46,6 +46,9 @@ body {
 .container {
   flex: 1 0 auto;
   padding-bottom: 100px;
+  @media screen and (min-width:$tablet + 80) {
+  padding-bottom: 0;
+}
 }
 
 // Styling on warning for users on IE7 or below
