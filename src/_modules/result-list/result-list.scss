@@ -58,6 +58,12 @@
     max-width: 522px;
   }
   @media screen and (min-width: $tablet - 1) {
+    max-width: 820px;
+  }
+  @media screen and (min-width: $tablet + 200) {
+    max-width: 900px;
+  }
+  @media screen and (min-width: $desktop + 50) {
     max-width: 100%;
   }
 }

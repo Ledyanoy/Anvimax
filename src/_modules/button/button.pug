@@ -4,6 +4,7 @@ mixin button(spec)
   - spec.title = spec.title || 'кнопка'
   - spec.link = spec.link || null
   - spec.dataGa = spec.dataGa || null
+  - spec.target = spec.target || null
 
-  a.button.js-counters-click(class=spec.__class href=spec.link data-ga-event=spec.dataGa) #{spec.title}
+  a.button.js-counters-click(class=spec.__class href=spec.link data-ga-event=spec.dataGa target=spec.target) #{spec.title}
 

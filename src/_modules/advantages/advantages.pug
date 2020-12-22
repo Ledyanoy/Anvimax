@@ -12,7 +12,7 @@ mixin advantages(spec)
 
     div.advantages__desc
       div.advantages__background
-          img(src='images/santa.png' alt='Санта с авимаксом')
+        img(src='images/santa.png' alt='Санта с авимаксом')
       div.advantages__banner
         .advantages__container
           .advantages__left-image
@@ -20,9 +20,12 @@ mixin advantages(spec)
           .advantages__right-image
             img(src='images/promo-right.png' alt="снимает симпоты и борется с вирусом")
           +button(
-            {__class:'advantages__btn button--action',
-            title: 'узнать больше ',
-            dataGa: 'Клик Узнать больше'
+            {
+              __class: 'advantages__btn button--action',
+              link: 'https://www.anvimax.ru/?utm_source=ivi&utm_campaign=ivi_part1&utm_medium=button',
+              title: 'узнать больше ',
+              dataGa: 'Клик Узнать больше',
+              target: "_blank"
             }
           )
 

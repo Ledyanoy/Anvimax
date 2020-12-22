@@ -52,6 +52,10 @@
     top: -4%;
     left: auto;
   }
+  @media screen and (min-width: $tablet - 133) {
+    top: -7%;
+    left: 0;
+  }
   @media screen and (min-width: $desktop - 1) {
     width: 200%;
     top: -35px;
@@ -59,7 +63,6 @@
     max-width: 1900px;
     left: 45%;
     transform: translateX(-50%);
-
   }
 }
 
