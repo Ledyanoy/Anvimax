@@ -23,7 +23,7 @@ let fantasyFilms;
 const categories = document.querySelector('.categories');
 const categoriesList = categories.querySelectorAll('.category-card');
 const resultList = document.querySelector('.result-list');
-const resultListInner = document.querySelector('.result-list__inner');
+const resultListInner = document.querySelector('.result-list__outer');
 const resultListTitle = resultListInner.querySelector('.result-list__title');
 const resultListDesc = resultListInner.querySelector('.result-list__desc');
 const randomResultListBtn = document.querySelector('.result-list__btn');
@@ -46,7 +46,7 @@ const categoryBtnHandler = (evt) => {
   checkCategory(category);
   makeCategoryActive(category);
   setTimeout(() => {
-    resultListInner.scrollIntoView({block: "center", behavior: "smooth"});
+    resultListInner.scrollIntoView({block: "start", behavior: "smooth"});
     setCategoriesToDefault();
   }, 3300)
 }
