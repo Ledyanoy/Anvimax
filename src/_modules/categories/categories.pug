@@ -4,7 +4,7 @@ mixin categories(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  - var categories = [ {name: 'pleasure', title: 'Умилиться и погрустить', mbI: "images/categories/pleasure-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}, {name: 'fun', title: 'Посмеяться и помечтать', mbI: "images/categories/fun-mb.png", tabletI: 'images/categories/fun-tb.png', deskI: 'images/categories/fun-d.png'}, {name: 'think', title: 'задуматься и удивиться', mbI: "images/categories/think-mb.png", tabletI: 'images/categories/think-tb.png', deskI: 'images/categories/think-d.png'}]
+  - var categories = [ {name: 'pleasure', title: 'Умилиться и погрустить', mbI: "images/categories/pleasure-mb.png", tabletI: 'images/categories/pleasure-tb.png', deskI: 'images/categories/pleasure-d.png'}, {name: 'fun', title: 'Посмеяться и помечтать', mbI: "images/categories/fun-mb.png", tabletI: 'images/categories/fun-tb.png', deskI: 'images/categories/fun-d.png'}, {name: 'fantasy', title: 'задуматься и удивиться', mbI: "images/categories/think-mb.png", tabletI: 'images/categories/think-tb.png', deskI: 'images/categories/think-d.png'}]
 
       ul.categories(class=spec.__class)&attributes(attributes)
         each category in categories

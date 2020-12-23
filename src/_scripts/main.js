@@ -14,8 +14,7 @@ window.addEventListener('load', () => {
 
 import 'core-js';
 import 'regenerator-runtime/runtime';
-// import $ from 'jquery';
-// import { Link } from '../_modules/link/link';
+
 let films;
 let comedyFilms;
 let dramaFilms;
@@ -27,6 +26,7 @@ const resultList = document.querySelector('.result-list');
 const resultListInner = document.querySelector('.result-list__inner');
 const resultListTitle = resultListInner.querySelector('.result-list__title');
 const resultListDesc = resultListInner.querySelector('.result-list__desc');
+const randomResultListBtn = document.querySelector('.result-list__btn');
 
 
 fetch('data/films.json')
@@ -48,48 +48,53 @@ const categoryBtnHandler = (evt) => {
   setTimeout(() => {
     resultListInner.scrollIntoView({block: "center", behavior: "smooth"});
     setCategoriesToDefault();
-  }, 5500)
+  }, 3300)
 }
+
+const randomResultListBtnHandler =()=> {
+  prepareFilms(films, false);
+  planChangeText();
+}
+
 const checkCategory = (category) => {
   const categoryName = category.dataset.genre;
   if (categoryName === 'fun') {
     prepareFilms(comedyFilms);
-    changeText('comedy');
+    planChangeText('comedy');
   } else if (categoryName === 'pleasure') {
     prepareFilms(dramaFilms);
-    changeText('drama');
-  } else {
+    planChangeText('drama');
+  } else if (categoryName === 'fantasy'){
     prepareFilms(fantasyFilms);
-    changeText('fantasy');
+    planChangeText('fantasy');
   }
 }
 
-const prepareFilms = (array) => {
+const prepareFilms = (array, delay = true) => {
   const newArray = array.sort(function () {
     return Math.random() - 0.5;
   }).slice(0, 14);
-  setTimeout(() => renderFilms(newArray), 5500)
+  setTimeout(() => renderFilms(newArray), delay ? 3300 : 0)
 
 }
 
-const changeText = (genre) => {
+const planChangeText = (genre) => {
   if (genre === 'comedy') {
-    setTimeout(() => {
-      resultListTitle.innerHTML = 'Хочу посмеяться';
-      resultListDesc.innerHTML = 'Персональная подборка для тех, кто любит безудержное веселье';
-    }, 5500)
-
+    changeText('Хочу посмеяться','Персональная подборка для тех, кто любит безудержное веселье');
   } else if (genre === 'drama') {
-    setTimeout(() => {
-      resultListTitle.innerHTML = 'Хочу умилиться';
-      resultListDesc.innerHTML = 'Персональная подборка для тех, кто соскучился по минорным нотам';
-    }, 5500)
+    changeText('Хочу умилиться и погрустить','Персональная подборка для тех, кто соскучился по нежности');
+  } else if (genre === 'fantasy') {
+    changeText('Хочу задуматься и удивиться','Персональная подборка для тех, кто верит в волшебство');
   } else {
-    setTimeout(() => {
-      resultListTitle.innerHTML = 'Хочу удивиться';
-      resultListDesc.innerHTML = 'Персональная подборка для тех, кто верит в волшебство';
-    }, 5500)
+    changeText('Хочу новогоднее настроение','Персональная подборка для тех, кто не хочет скучать в новогодние праздники', false);
   }
+}
+
+const changeText = (header, description, delay=true) => {
+  setTimeout(() => {
+    resultListTitle.innerHTML = header;
+    resultListDesc.innerHTML = description;
+  }, delay ? 3300 : 0)
 }
 
 const makeCategoryActive = (category) => {
@@ -117,7 +122,7 @@ const setPercentToDefault = (category) => {
 }
 
 const makePercentsUp = (text, line) => {
-  for (let i = 1; i <= 100; i++) {
+  for (let i = 0; i <= 100;  i+=2) {
     setTimeout(function () {
       text.innerHTML = i;
       if (window.innerWidth <= 597) {
@@ -129,7 +134,7 @@ const makePercentsUp = (text, line) => {
       if (window.innerWidth >= 1100) {
         line.style.width = `${i * 0.65}%`;
       }
-    }, 50 * i)
+    }, 30 * i)
   }
 }
 
@@ -147,4 +152,5 @@ const renderFilms = (array) => {
   resultList.insertAdjacentHTML("afterBegin", newListItems.join(''));
 }
 
-categories.addEventListener('click', categoryBtnHandler)
+categories.addEventListener('click', categoryBtnHandler);
+randomResultListBtn.addEventListener('click', randomResultListBtnHandler)
