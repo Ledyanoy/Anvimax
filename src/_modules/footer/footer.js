@@ -1,8 +1,18 @@
 'use strict';
+const body = document.querySelector('body');
+const footerContent = document.querySelector('.footer__content');
 
-export default class Footer {
-  constructor() {
-    this.name = 'footer';
-    console.log('%s module', this.name.toLowerCase());
-  }
-}
+document.addEventListener("DOMContentLoaded", () => {
+  if (window.innerWidth < 980) return;
+  console.log(document.querySelector('body').scrollHeight);
+  window.addEventListener('scroll', function () {
+    let scrollPos = window.scrollY;
+    if (scrollPos >= body.scrollHeight - body.clientHeight - 306) {
+      footerContent.classList.remove('footer__content--fixed');
+    } else if (scrollPos < body.scrollHeight - body.clientHeight - 429) {
+      footerContent.classList.add('footer__content--fixed');
+    }
+  })
+});
+
+

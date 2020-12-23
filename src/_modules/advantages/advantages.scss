@@ -29,16 +29,17 @@
   img {
     width: 150%;
     height: auto;
+    display: block;
+    max-width: 150%;
+    align-self: center;
     @media screen and (min-width: $tablet - 1) {
       max-width: 945px;
       margin: 0 auto;
-      display: block;
     }
   }
   @media screen and (min-width: $desktop - 1) {
     padding-right: 55px;
   }
-
 }
 
 .advantages__utp {
@@ -56,6 +57,8 @@
     width: 49%;
     height: auto;
     max-width: 300px;
+    display: block;
+    align-self: center;
   }
 }
 

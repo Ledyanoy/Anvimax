@@ -85,6 +85,9 @@
   &--share-links {
     text-align: center;
     line-height: 1.875rem ;
+    @media screen and (min-width: $laptop - 1) {
+      font-size: 1.4375rem;
+    }
   }
 
 }

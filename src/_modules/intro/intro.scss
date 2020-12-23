@@ -41,20 +41,23 @@
     width: 95%;
     top: 15%;
   }
+  @media screen and (min-width: $laptop + 50) {
+    top: 0;
+  }
+  @media screen and (min-width: $tablet - 133) {
+    top: -7%;
+    left: 0;
+  }
   @media screen and (min-width: $tablet - 100) {
     width: 100%;
     top: -15%;
     left: 0;
   }
   @media screen and (min-width: $tablet - 1) {
-    width: 120%;
-    right: -12%;
     top: -4%;
     left: auto;
-  }
-  @media screen and (min-width: $tablet - 133) {
-    top: -7%;
-    left: 0;
+    width: 120%;
+    right: -12%;
   }
   @media screen and (min-width: $desktop - 1) {
     width: 200%;

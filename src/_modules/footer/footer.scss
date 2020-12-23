@@ -8,16 +8,37 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  @media screen and (min-width:$tablet + 80) {
+  @media screen and (min-width: $tablet + 80) {
     position: static;
     padding-bottom: 306px;
   }
 }
+
+.footer__content {
+  &--fixed {
+    @media screen and (min-width: $tablet + 80) {
+      position: fixed;
+      bottom: 0;
+      padding-bottom: 10px;
+      background-color: red;
+      padding: 10px;
+      width: 100%;
+      max-width: 100% !important;
+      display: flex;
+      justify-content: center;
+      background-color:#1C2454 ;
+      & img {
+        max-width: 1208px;
+      }
+    }
+  }
+}
+
 
 .footer__disclaimer {
   width: 100%;
   height: auto;
   max-width: 1640px;
   margin: 0 auto;
-
+  display: block;
 }

@@ -4,6 +4,7 @@
 'use strict';
 
 import GaAnalytics from './ga';
+
 const counters = new GaAnalytics('UA-45150148-1');
 
 window.addEventListener('load', () => {
@@ -11,14 +12,15 @@ window.addEventListener('load', () => {
 });
 
 
-
 import 'core-js';
 import 'regenerator-runtime/runtime';
+import '../_modules/footer/footer';
 
-let films;
-let comedyFilms;
-let dramaFilms;
-let fantasyFilms;
+let films,
+  comedyFilms,
+  dramaFilms,
+  fantasyFilms,
+  globalCategoryName;
 
 const categories = document.querySelector('.categories');
 const categoriesList = categories.querySelectorAll('.category-card');
@@ -26,7 +28,7 @@ const resultList = document.querySelector('.result-list');
 const resultListInner = document.querySelector('.result-list__outer');
 const resultListTitle = resultListInner.querySelector('.result-list__title');
 const resultListDesc = resultListInner.querySelector('.result-list__desc');
-const randomResultListBtn = document.querySelector('.result-list__btn');
+const newGenerateBtn = document.querySelector('.result-list__btn');
 
 
 fetch('data/films.json')
@@ -51,20 +53,30 @@ const categoryBtnHandler = (evt) => {
   }, 3300)
 }
 
-const randomResultListBtnHandler =()=> {
-  prepareFilms(films, false);
-  planChangeText();
+const newGenerateBtnHandler = () => {
+  if (globalCategoryName === 'comedy') {
+    prepareFilms(comedyFilms, false);
+  } else if (globalCategoryName = 'drama') {
+    prepareFilms(dramaFilms, false);
+  } else if (globalCategoryName = 'fantasy') {
+    prepareFilms(fantasyFilms, false);
+  } else {
+    prepareFilms(films, false);
+  }
 }
 
 const checkCategory = (category) => {
   const categoryName = category.dataset.genre;
-  if (categoryName === 'fun') {
+  if (categoryName === 'comedy') {
+    globalCategoryName = 'comedy';
     prepareFilms(comedyFilms);
     planChangeText('comedy');
-  } else if (categoryName === 'pleasure') {
+  } else if (categoryName === 'drama') {
+    globalCategoryName = 'drama';
     prepareFilms(dramaFilms);
     planChangeText('drama');
-  } else if (categoryName === 'fantasy'){
+  } else if (categoryName === 'fantasy') {
+    globalCategoryName = 'fantasy';
     prepareFilms(fantasyFilms);
     planChangeText('fantasy');
   }
@@ -80,17 +92,15 @@ const prepareFilms = (array, delay = true) => {
 
 const planChangeText = (genre) => {
   if (genre === 'comedy') {
-    changeText('Хочу посмеяться','Персональная подборка для тех, кто любит безудержное веселье');
+    changeText('Хочу посмеяться и помечтать', 'Персональная подборка для тех, кто любит безудержное веселье');
   } else if (genre === 'drama') {
-    changeText('Хочу умилиться и погрустить','Персональная подборка для тех, кто соскучился по нежности');
+    changeText('Хочу умилиться и погрустить', 'Персональная подборка для тех, кто соскучился по нежности');
   } else if (genre === 'fantasy') {
-    changeText('Хочу задуматься и удивиться','Персональная подборка для тех, кто верит в волшебство');
-  } else {
-    changeText('Хочу новогоднее настроение','Персональная подборка для тех, кто не хочет скучать в новогодние праздники', false);
+    changeText('Хочу задуматься и удивиться', 'Персональная подборка для тех, кто верит в волшебство');
   }
 }
 
-const changeText = (header, description, delay=true) => {
+const changeText = (header, description, delay = true) => {
   setTimeout(() => {
     resultListTitle.innerHTML = header;
     resultListDesc.innerHTML = description;
@@ -122,7 +132,7 @@ const setPercentToDefault = (category) => {
 }
 
 const makePercentsUp = (text, line) => {
-  for (let i = 0; i <= 100;  i+=2) {
+  for (let i = 0; i <= 100; i += 2) {
     setTimeout(function () {
       text.innerHTML = i;
       if (window.innerWidth <= 597) {
@@ -153,4 +163,4 @@ const renderFilms = (array) => {
 }
 
 categories.addEventListener('click', categoryBtnHandler);
-randomResultListBtn.addEventListener('click', randomResultListBtnHandler)
+newGenerateBtn.addEventListener('click', newGenerateBtnHandler)

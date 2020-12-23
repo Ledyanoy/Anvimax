@@ -14,10 +14,15 @@
       content: '';
       position: absolute;
       top: 190px;
-      background-image: url("/images/snowflakes.png");
+      background-image: url(/images/snowflakes.png);
       display: block;
       width: 100%;
+      max-width: 1854px;
       height: 1870px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      pointer-events: none;
     }
   }
 }

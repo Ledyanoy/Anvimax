@@ -8,11 +8,17 @@
   @media screen and (min-width: $laptop - 1) {
     padding-top: 155px;
   }
+  @media screen and (min-width: $big-desktop + 10) {
+    background-size: 100%;
+  }
 }
 
 .result-list__inner {
   background-color: #1D193F;
   padding-bottom: 20%;
+  @media screen and (min-width:$tablet + 80) {
+    padding-bottom: 42px;
+  }
 }
 
 .result-list__content {
