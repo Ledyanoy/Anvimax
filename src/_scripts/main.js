@@ -89,7 +89,6 @@ const prepareFilms = (array, delay = true) => {
     return Math.random() - 0.5;
   }).slice(0, 14);
   setTimeout(() => renderFilms(newArray), delay ? 3300 : 0)
-
 }
 
 const planChangeText = (genre) => {

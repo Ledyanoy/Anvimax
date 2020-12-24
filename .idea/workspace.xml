@@ -21,8 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4bee9232-aaff-4b55-bb49-4ac92816fcb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_images/disclaimer-desk.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_images/disclaimer-desk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_images/disclaimer-laptop.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_images/disclaimer-laptop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_images/disclaimer-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_images/disclaimer-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_images/first-utp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_images/first-utp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_images/second-utp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/_images/second-utp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_layouts/base.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/_layouts/base.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_modules/intro/intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/intro/intro.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_scripts/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,9 +71,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akorenev\Desktop\git\Anvimax\src\_images" />
       <recent name="C:\Users\akorenev\Desktop\git\Anvimax\src" />
       <recent name="D:\Alexander\Docs\Hobby\MarkUp\git\Anvimax\src\_images" />
-      <recent name="C:\Users\akorenev\Desktop\git\Anvimax\src\_images" />
       <recent name="C:\Users\akorenev\Desktop\git\Anvimax\src\data" />
       <recent name="C:\Users\akorenev\Desktop\git\Anvimax\src\_images\categories" />
     </key>
@@ -86,7 +92,8 @@
       <workItem from="1608618011658" duration="16208000" />
       <workItem from="1608716249568" duration="13808000" />
       <workItem from="1608733291204" duration="1337000" />
-      <workItem from="1608789940668" duration="479000" />
+      <workItem from="1608789940668" duration="1942000" />
+      <workItem from="1608813482988" duration="4728000" />
     </task>
     <servers />
   </component>
