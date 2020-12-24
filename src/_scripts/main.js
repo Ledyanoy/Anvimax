@@ -20,7 +20,7 @@ let films,
   comedyFilms,
   dramaFilms,
   fantasyFilms,
-  globalCategoryName;
+  choosedCataegoryName;
 
 const categories = document.querySelector('.categories');
 const categoriesList = categories.querySelectorAll('.category-card');
@@ -54,29 +54,31 @@ const categoryBtnHandler = (evt) => {
 }
 
 const newGenerateBtnHandler = () => {
-  if (globalCategoryName === 'comedy') {
+
+  if (choosedCataegoryName === 'comedy') {
     prepareFilms(comedyFilms, false);
-  } else if (globalCategoryName = 'drama') {
+  } else if (choosedCataegoryName === 'drama') {
     prepareFilms(dramaFilms, false);
-  } else if (globalCategoryName = 'fantasy') {
+  } else if (choosedCataegoryName === 'fantasy') {
     prepareFilms(fantasyFilms, false);
   } else {
     prepareFilms(films, false);
+
   }
 }
 
 const checkCategory = (category) => {
   const categoryName = category.dataset.genre;
   if (categoryName === 'comedy') {
-    globalCategoryName = 'comedy';
+    choosedCataegoryName = 'comedy';
     prepareFilms(comedyFilms);
     planChangeText('comedy');
   } else if (categoryName === 'drama') {
-    globalCategoryName = 'drama';
+    choosedCataegoryName = 'drama';
     prepareFilms(dramaFilms);
     planChangeText('drama');
-  } else if (categoryName === 'fantasy') {
-    globalCategoryName = 'fantasy';
+  } else {
+    choosedCataegoryName = 'fantasy';
     prepareFilms(fantasyFilms);
     planChangeText('fantasy');
   }

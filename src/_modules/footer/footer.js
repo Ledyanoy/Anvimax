@@ -4,7 +4,7 @@ const footerContent = document.querySelector('.footer__content');
 
 document.addEventListener("DOMContentLoaded", () => {
   if (window.innerWidth < 980) return;
-  console.log(document.querySelector('body').scrollHeight);
+
   window.addEventListener('scroll', function () {
     let scrollPos = window.scrollY;
     if (scrollPos >= body.scrollHeight - body.clientHeight - 306) {

@@ -21,21 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4bee9232-aaff-4b55-bb49-4ac92816fcb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/advantages/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/advantages/advantages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/categories/categories.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/categories/categories.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_layouts/base.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/_layouts/base.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_modules/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/footer/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/footer/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/intro/intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/intro/intro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/result-list/result-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/result-list/result-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/share-links/share-links.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/share-links/share-links.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_styles/text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles/text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_styles/varibles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles/varibles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_styles/wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles/wrapper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/films.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/films.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +84,9 @@
       <workItem from="1608271223286" duration="27284000" />
       <workItem from="1608531146215" duration="28756000" />
       <workItem from="1608618011658" duration="16208000" />
-      <workItem from="1608716249568" duration="13110000" />
+      <workItem from="1608716249568" duration="13808000" />
+      <workItem from="1608733291204" duration="1337000" />
+      <workItem from="1608789940668" duration="479000" />
     </task>
     <servers />
   </component>
