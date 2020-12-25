@@ -3,6 +3,7 @@ mixin footer(spec)
   - spec.__class = spec.__class || ''
 
   footer.footer.footer--fixed(class=spec.__class)&attributes(attributes)
+    <!--#include virtual="/tpl/footer" -->
     .content.footer__content.footer__content--fixed
       div.footer__mobile
         p.text.text--alert ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ.
