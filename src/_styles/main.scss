@@ -7,7 +7,6 @@
 
 
 // Import Modules
-@import '../_modules/link/link';
 @import '../_modules/button/button';
 @import '../_modules/header/header';
 @import '../_modules/intro/intro';
@@ -82,9 +81,5 @@ body {
     padding-right: 30px;
     max-width: 1268px;
   }
-}
-
-a:visited, a:link {
-  color: $text-color;
 }
 
