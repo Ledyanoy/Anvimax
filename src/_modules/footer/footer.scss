@@ -42,3 +42,16 @@ footer {
   margin: 0 auto;
   display: block;
 }
+
+.footer__mobile {
+  @media screen and (min-width: $tablet + 80) {
+    display: none;
+  }
+}
+
+.footer__desk {
+  display: none;
+  @media screen and (min-width: $tablet + 80) {
+    display: block;
+  }
+}

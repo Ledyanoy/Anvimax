@@ -21,6 +21,9 @@ head
   <!--  Non-Essential, But Recommended -->
   meta(property="og:site_name" content="Анвимакс")
   meta(name="twitter:image:alt" content="Анвимакс")
+
+  <!--#include virtual="/tpl/head" -->
+
   title Запусти генератор новогоднего настроения
   meta(name="description" content="А при простуде и гриппе на помощь придет «АнвиМакс» — против симптомов и вируса!")
 
@@ -37,8 +40,11 @@ body
   <![endif]-->
   +svg_sprite
 
+  <!--#include virtual="/tpl/menu" -->
 
   block content
+
+  <!--#include virtual="/tpl/footer" -->
 
   block scripts
     script(src= baseUrl + 'scripts/main.js')

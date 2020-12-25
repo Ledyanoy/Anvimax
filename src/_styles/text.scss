@@ -74,11 +74,19 @@
   }
 
   &--alert {
-    font-size: 4vw;
-    line-height: 0.9375em;
+    font-size: 4.6vw;
+    line-height: 1.2em;
     text-align: center;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
     @media screen and (min-width: $laptop - 1) {
       font-size: 2em;
+    }
+    @media screen and (min-width: $tablet + 80) {
+      letter-spacing: 8px;
+    }
+    @media screen and (min-width: $desktop) {
+      letter-spacing: 14px;
     }
   }
 
