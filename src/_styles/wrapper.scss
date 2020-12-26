@@ -10,7 +10,7 @@
   margin: 0 auto;
   position: relative;
   @media screen and (min-width: $desktop - 1) {
-    &::before{
+    &::before {
       content: '';
       position: absolute;
       top: 190px;
@@ -25,25 +25,22 @@
       pointer-events: none;
     }
   }
-  @media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-    transform: scale(0.75);
-    top: -300px;
+  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    transform: scale(0.6);
+    top: -590px;
+    margin-bottom: -1180px;
   }
-
   @media screen and (min-width: $desktop - 8) {
-    transform: scale(0.75);
-    top: -370px;
-    margin-bottom: -700px;
+    transform: scale(0.6);
+    top: -590px;
+    margin-bottom: -1180px;
   }
-  @media screen and (min-width: $desktop - 2 ) {
-    top: -390px;
+  @media screen and (min-width: $desktop - 2) {
+    top: -620px;
   }
   @media screen and (min-width: $desktop + 72) {
-    top: -360px;
+    top: -565px;
+    margin-bottom: -1130px;
   }
 }
 
