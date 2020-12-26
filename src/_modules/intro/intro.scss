@@ -89,8 +89,12 @@
   }
   @media screen and (min-width: $big-desktop - 420) {
     width: 90%;
-    left: 51%;
+    left: 53%;
     top: -20px;
+  }
+  @media screen and (min-width: $big-desktop - 220) {
+    left: 51%;
+    top: -60px;
   }
 }
 
