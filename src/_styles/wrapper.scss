@@ -30,8 +30,20 @@
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) {
-    transform: scale(0.8);
+    transform: scale(0.75);
     top: -300px;
+  }
+
+  @media screen and (min-width: $desktop - 8) {
+    transform: scale(0.75);
+    top: -370px;
+    margin-bottom: -700px;
+  }
+  @media screen and (min-width: $desktop - 2 ) {
+    top: -390px;
+  }
+  @media screen and (min-width: $desktop + 72) {
+    top: -360px;
   }
 }
 
