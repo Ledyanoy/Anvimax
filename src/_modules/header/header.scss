@@ -1,9 +1,7 @@
 // header styles
-header {
-  height: 48px;
-  background-color: #252452;
+.header {
   position: relative;
-  @media screen and (min-width: $laptop - 1) {
-    height: 56px;
+  @media screen and (min-width: $tablet + 80) {
+    height: 60px;
   }
 }

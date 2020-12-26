@@ -27,7 +27,10 @@
     @media screen and (min-width: $tablet - 1) {
       display: flex;
       justify-content: center;
-      padding-bottom: 110px;
+      padding-bottom: 150px;
+    }
+    @media screen and (min-width: $tablet + 80) {
+      padding-bottom: 90px;
     }
     @media screen and (min-width: $desktop - 1) {
       justify-content: flex-start;
@@ -38,8 +41,7 @@
     padding-top: 42px;
   }
   @media screen and (min-width: $desktop - 1) {
-    padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
 }
 
@@ -78,12 +80,17 @@
     right: -12%;
   }
   @media screen and (min-width: $desktop - 1) {
-    width: 200%;
+    width: 110%;
     top: -35px;
     right: auto;
     max-width: 1900px;
-    left: 45%;
+    left: 55%;
     transform: translateX(-50%);
+  }
+  @media screen and (min-width: $big-desktop - 420) {
+    width: 90%;
+    left: 51%;
+    top: -20px;
   }
 }
 
@@ -132,9 +139,9 @@
   }
   @media screen and (min-width: $desktop - 1) {
     position: absolute;
-    max-width: 70%;
+    max-width: 60%;
     right: 0;
-    top: -100px
+    top: -70px
   }
 }
 

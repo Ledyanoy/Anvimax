@@ -12,10 +12,6 @@
       font-size: 3.4375rem;
       line-height: 3.375rem;
     }
-    @media screen and (min-width: $desktop - 1) {
-      font-size: 4.0625rem;
-      line-height: 4.0625rem;
-    }
   }
 
   &--reg {
@@ -75,7 +71,7 @@
 
   &--alert {
     font-size: 4.6vw;
-    line-height: 1.2em;
+    line-height: 1em;
     text-align: center;
     letter-spacing: 0.4px;
     white-space: nowrap;

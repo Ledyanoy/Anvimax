@@ -21,8 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4bee9232-aaff-4b55-bb49-4ac92816fcb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/footer/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/footer/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_layouts/base.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/_layouts/base.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_modules/advantages/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/advantages/advantages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_modules/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_modules/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_modules/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/header/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_modules/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_modules/intro/intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/intro/intro.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_styles/text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles/text.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../social-net" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
