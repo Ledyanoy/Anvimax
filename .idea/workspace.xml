@@ -22,7 +22,6 @@
     <list default="true" id="4bee9232-aaff-4b55-bb49-4ac92816fcb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_modules/intro/intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/intro/intro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_styles/wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles/wrapper.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../social-net" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,6 +89,8 @@
       <workItem from="1608876870327" duration="415000" />
       <workItem from="1608889361428" duration="524000" />
       <workItem from="1608890663712" duration="4290000" />
+      <workItem from="1609136510068" duration="71000" />
+      <workItem from="1609150668146" duration="654000" />
     </task>
     <servers />
   </component>

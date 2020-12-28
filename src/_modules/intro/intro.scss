@@ -100,12 +100,13 @@
 
 .intro__title {
   margin-bottom: 8px;
+  max-width: 200px;
   @media screen and (min-width: $laptop - 1) {
     margin-bottom: 12px;
+    max-width: 350px;
   }
   @media screen and (min-width: $desktop - 1) {
     margin-bottom: 28px;
-    max-width: 50%;
   }
 }
 
