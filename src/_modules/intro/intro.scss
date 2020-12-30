@@ -51,10 +51,10 @@
   position: absolute;
   width: 100%;
   height: auto;
-  top: 10%;
+  top: 0;
   left: -3%;
   @media screen and (min-width: $mobile + 30) {
-    top: 0;
+    top: -5%;
   }
   @media screen and (min-width: $mobile + 100) {
     top: -25%;
