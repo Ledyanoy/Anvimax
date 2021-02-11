@@ -3,8 +3,9 @@
 import path from 'path';
 import gulpif from 'gulp-if';
 import pngquant from 'imagemin-pngquant';
+import mozjpeg from 'imagemin-mozjpeg'
 import gulp from 'gulp';
-import { plugins, args, config, taskTarget, browserSync } from '../utils';
+import {plugins, args, config, taskTarget, browserSync} from '../utils';
 
 let dirs = config.directories;
 let dest = path.join(taskTarget, dirs.images.replace(/^_/, ''));
@@ -21,10 +22,20 @@ gulp.task('imagemin', () => {
         args.production,
         plugins.imagemin(
           [
-            plugins.imagemin.jpegtran({ progressive: true }),
-            plugins.imagemin.svgo({ plugins: [{ removeViewBox: false }] })
-          ],
-          { use: [pngquant({ speed: 10 })] }
+            plugins.imagemin.gifsicle({interlaced: true}),
+            plugins.imagemin.optipng({optimizationLevel: 7}),
+            plugins.imagemin.svgo({
+              plugins: [
+                {removeViewBox: true},
+                {cleanupIDs: false}
+              ]
+            }),
+            mozjpeg({quality: 75, progressive: true}),
+            pngquant({speed: 10}),
+
+          ], {
+            verbose: true
+          }
         )
       )
     )

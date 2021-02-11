@@ -17,6 +17,7 @@ gulp.task('build', gulp.series(
   gulp.parallel(
     'copy',
     'imagemin',
+    'svgSprite',
     'pug',
     'sass',
     'browserify'
@@ -29,6 +30,7 @@ gulp.task('serve', gulp.series(
   gulp.parallel(
     'imagemin',
     'copy',
+    'svgSprite',
     'pug',
     'sass',
     'browserify',

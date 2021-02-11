@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4bee9232-aaff-4b55-bb49-4ac92816fcb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/intro/intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_modules/intro/intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/imagemin.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/imagemin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../social-net" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulp/tasks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,9 +62,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\akorenev\Desktop\git\Anvimax\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akorenev\Desktop\git\Anvimax\gulp\tasks" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\akorenev\Desktop\git\Anvimax\src\_images" />
       <recent name="C:\Users\akorenev\Desktop\git\Anvimax\src" />
@@ -94,6 +101,8 @@
       <workItem from="1609223351897" duration="958000" />
       <workItem from="1609245458724" duration="2564000" />
       <workItem from="1609309211603" duration="1040000" />
+      <workItem from="1609331079038" duration="684000" />
+      <workItem from="1613032199978" duration="11497000" />
     </task>
     <servers />
   </component>
